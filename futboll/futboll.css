@@ -1,0 +1,42 @@
+.menu {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .menu-items {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+  }
+  
+  .menu button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .menu:hover .menu-items {
+    display: block;
+  }
+  
+  .menu-items li {
+    padding: 10px;
+  }
+  
+  .menu-items li a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .menu-items li a:hover {
+    color: #000;
+  }
+  

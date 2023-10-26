@@ -1,0 +1,13 @@
+.upload-form {
+    margin: 20px;
+  }
+  .upload-form input[type="file"] {
+    display: none;
+  }
+  .upload-form label {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+  }

@@ -1,0 +1,25 @@
+s
+.news-container {
+  width: 300px;
+  height: 200px;
+  overflow: hidden;
+}
+
+.news-item {
+  animation: slide 10s infinite;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  33% {
+    transform: translateX(-100%);
+  }
+  66% {
+    transform: translateX(-200%);
+  }
+  100% {
+    transform: translateX(-300%);
+  }
+}
